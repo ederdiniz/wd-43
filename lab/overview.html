@@ -1,14 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
     <title>Overview</title>
 </head>
 <body>
     <h1>Overview Html 5</h1>
-    <h2>lista</h2>
-    
+    <h2>Organizando Textos</h2>
+    <p>Lorem <b>ipsum</b> dolor sit <strong>amet</strong>, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. <i>Excepteur</i> sint <em>occaecat</em> cupidatat non
+    <cit>proident</cit>, sunt in culpa qui officia deserunt <mark>mollit</mark> anim <sub>id</sub> est <sup>laborum.</sup></p>
+    <h3>Ordenadas</h3>
+    <ol>
+        <li>Corinthians</li>
+        <li>RB Brasil</li>
+        <li>Portuguesa</li>
+        <li>Inter</li>
+    </ol>
+    <h3>Não Ordenadas</h3>
+    <ul>
+        <li>Node js</li>
+        <li>Go</li>
+        <li>Python</li>
+        
+    </ul>
+    <h3>Definição</h3>
+    <dl>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd>
+    </dl>
+
+    <h2>Tabelas</h2>
+    <table  border="1" width="100%">
+        <colgroup>
+         <col width="50%"></col>   
+         <col width="50%"></col>   
+        </colgroup>
+        <thead>
+            <tr>
+                <th> Curso</th>
+                <th>Instrutor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> FJ11</td>
+                <td rowspan="2">Joviani</td>
+            </tr>
+            <tr>
+                <td> WD43</td>
+                <!-- <td>Bruno</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Turmas a partir de mar/2016</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Imagens</h2>
+    <img src="http://www.lorempixel.com/g/250/250/people">
+    <h2>Hiperlink</h2>
+    <p>Link relativo: <a href="estrutura-basica.html"> estrutura </a></p>
+    <p>Link absoluto: <a href="http://www.uol.com.br" target="_blank">uol</a></p>
+    <p>Link email: <a href="mailTo:jonesfrod@dkw.com"> sac uol</a></p>
+    <h2>IFrames</h2>
+    <iframe src="lab.html" width="200" height="200" frameborder="0"></iframe> <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S4PpYv9n0ko" frameborder="0" allowfullscreen></iframe> <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d17392.593076014877!2d-46.636459220447705!3d-23.592054051088535!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1455992558269" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <h2>Formulario</h2>
+    <form action="login.php">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="user"> Usuario com label</label>
+            <input type="text" id="user" name="user"> <br>
+
+
+            <label for="pass">
+               <span>Senha</span>
+                <input type="password" id="pass" name="pass"></input>
+            </label>
+            <button type="submit">Acessar</button>
+
+        </fieldset>
 
 
 
+
+    </form>
 </body>
 </html>
