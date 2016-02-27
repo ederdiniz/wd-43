@@ -59,3 +59,25 @@ sugestão
 metodologia css
 bem bem.org
 
+https://en.bem.info/method/
+https://css-tricks.com/bem-101/
+ocss
+smacss
+
+SEO - http://www.agenciamestre.com/seo/o-que-e-seo/
+
+
+
+
+BEM padrao css
+
+
+BLOCK 
+
+.block{}
+
+
+
+ELEMENT
+.block__element{}
+

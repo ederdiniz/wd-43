@@ -1,0 +1,81 @@
+/*
+sintaxe do css 
+seletor  {propriedade:valor;}*/
+
+
+/* seletor de tag */
+
+
+body{
+    background-color: #ccc;
+}
+/*header, main, footer{
+    border: 1px solid ; 
+    width: 1200px;
+    margin: auto;
+}*/
+
+header, footer {
+
+    background-color: purple;
+    height: 200px;
+}
+main {
+    background-color: cyan;
+    height: 400px;
+}
+
+
+/* seletor de classe*/
+.container{
+    border: 1px solid ; /* sintaxe basica like construtor */
+    width: 1200px;
+    margin: auto;
+
+}
+/*
+.cabecalho{
+    background-color: yellow ;
+}
+
+/*seletor de id*/
+/*
+#cabecalho{
+    background-color: orange;
+}
+
+
+header#cabecalho{
+
+    background-color: blue;
+}
+
+header#cabecalho.cabecalho{
+
+    background-color: red;
+}
+
+
+.container header.cabecalho#cabecalho{
+    background-color: pink;
+}
+*/
+
+/*padrao BEM*/
+/*BLOCK*/
+.menu{
+
+
+}
+/*ELEMENT*/
+.menu__item{
+
+}
+
+/*MODIFER*/
+
+.menu__item--modifier{
+
+
+    
+}

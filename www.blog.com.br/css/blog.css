@@ -8,6 +8,13 @@ seletor  {propriedade:valor;}*/
 
 body{
     background-color: #ccc;
+  /*  font-family: helvetica, tahoma;
+    font-size: 1 em;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;*/  /* proporcional ao tamanho da fonte */
+
+    font: 100%/1.5 helvetica,tahoma ;
 }
 /*header, main, footer{
     border: 1px solid ; 
@@ -18,7 +25,7 @@ body{
 header, footer {
 
     background-color: purple;
-    height: 200px;
+    min-height: 200px; 
 }
 main {
     background-color: cyan;
@@ -60,3 +67,52 @@ header#cabecalho.cabecalho{
     background-color: pink;
 }
 */
+
+
+.site-header{
+    
+}
+    .site-header__brand {
+        background-image: url(../img/logo-audi.png);
+        height: 150px;
+        background-repeat: no-repeat; /*nao deixar repetir imagem*/
+        background-color: yellow;
+        background-position: center;
+        width: 150px;
+        text-indent: -9000px;  
+        display: block;
+       
+    }
+    .site-header__brand a {
+        display: block;
+        height:inherit;
+    }
+
+    .site-header__navigation{}
+        .menu{}
+            .menu__item{
+               
+                display: block;
+                width: 200px;
+                float: left;
+                background: #000;
+                text-align: center;
+                line-height: 2;
+                color: #fff;
+                text-decoration: none;
+
+            }
+            .menu__item a {
+                color: inherit;
+                text-decoration: inherit;
+                display:inherit;
+
+            }
+            .menu__item:hover{
+                background:#fafafa;
+                color: #000;
+
+            }
+            .menu__item--current{}
+    
+
