@@ -21,21 +21,28 @@ body{
     width: 1200px;
     margin: auto;
 }*/
+ header {
 
-header, footer {
+    background: #fff;
+
+}
+
+
+
+ footer {
 
     background-color: purple;
     min-height: 200px; 
 }
 main {
     background-color: cyan;
-    height: 400px;
+   /* height: 400px;*/
 }
 
 
 /* seletor de classe*/
 .container{
-    border: 1px solid ; /* sintaxe basica like construtor */
+    /*border: 1px solid ;  sintaxe basica like construtor */
     width: 1200px;
     margin: auto;
 
@@ -81,6 +88,7 @@ header#cabecalho.cabecalho{
         width: 150px;
         text-indent: -9000px;  
         display: block;
+            margin-left: 20px;
        
     }
     .site-header__brand a {
@@ -116,3 +124,67 @@ header#cabecalho.cabecalho{
             .menu__item--current{}
     
 
+.highlight{
+    position: relative;
+    height: 250px;
+
+}
+.highlight__image {
+
+
+}
+
+.highlight__title{
+
+    font-size: 3em;
+    background:  rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 10px ;
+    display: inline-block;
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+    /*opacity: 0.5;*/
+
+}
+section[role=posts]{
+    background: white;
+    width: 1000px;
+    min-height: 900px;
+    float: left;
+    padding: 25px;
+}
+  
+
+section[role=sidebar]{
+    background: tomato;
+    width: 200px;
+    min-height: 900px;
+    float: left;
+     padding: 25px;
+}
+
+
+
+.post{
+
+    margin: 0 0 20px 0;
+
+}
+
+.post__title{
+    font-size: 2em;
+    font-style: italic;
+}
+.post__desc{
+    line-height: 1.25;
+}
+
+.post:after{
+    background: #666;
+    width:100%;
+    height: 1px;
+    display: block;
+    content: "";
+    margin: 40px auto 20px;
+}
