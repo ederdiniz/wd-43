@@ -14,7 +14,7 @@ body{
     font-style: italic;
     line-height: 1.5;*/  /* proporcional ao tamanho da fonte */
 
-    font: 100%/1.5 helvetica,tahoma ;
+    font: 100%/1.5 "open_sansregular",helvetica,tahoma ;
 }
 /*header, main, footer{
     border: 1px solid ; 
@@ -212,7 +212,7 @@ section[role=sidebar]{
     color:#fff;
     line-height: 85px;
     padding: 0 0 0 20px;
-    
+
 
 }
 
