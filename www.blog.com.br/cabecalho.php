@@ -1,19 +1,6 @@
-<<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="fonts/webfonts/opensans_regular_macroman/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/blog.css">
-    <link rel="stylesheet" type="text/css" href="css/mobile.css" >
-
-</head>
-<body>
 
 
-<div class="container">
+
         <header>
             <h1 class="site-header__brand"><a href="#" >Audi</a></h1>
             <nav class="site-header__navigation">            
@@ -27,9 +14,6 @@
                 </ul>
             </nav>
         </header> <!--elementos de bloco-->
-</div>
-<script type="text/javascript" src="js/lab.js"></script>
-</body>
-</html>
+
 
 
