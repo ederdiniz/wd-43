@@ -1,0 +1,31 @@
+
+
+@media(max-width: 1334px){
+
+ .menu__item{
+
+    width: 100%;
+    max-width: 200px;
+    float: none;
+
+}
+
+section[role=sidebar]{
+    background: tomato;
+    width: 100%;
+    min-height: 1000px;
+    float: none;
+     padding: 25px;
+}
+
+}
+@media(max-width: 1200px){
+
+
+section[role=posts]{
+   
+    width: 100%;
+    float: none;
+}
+
+}
