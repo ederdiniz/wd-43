@@ -6,5 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/blog.css">
     <link rel="stylesheet" type="text/css" href="css/mobile.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 </head>
